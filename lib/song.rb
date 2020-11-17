@@ -14,7 +14,7 @@ attr_accessor :name, :artist
   # "Action Bronson - Larry Csonka - indie.mp3"), splitting
   # the name by the dashes "-", and turning the filename into
   # an array.
-    split_name = filename.split(" - ")
+    split_name = file_name.split(" - ")
   # With the new split_name array made, the next step is to pull
   # the song out of the array, which is split_name[1]
     self.new(split_name[1])
