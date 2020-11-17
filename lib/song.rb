@@ -6,4 +6,8 @@ attr_reader :artist
     @name = name
   end
 
+  def artist
+    self.artist = self
+  end
+
 end
