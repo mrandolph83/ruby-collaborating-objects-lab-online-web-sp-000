@@ -7,7 +7,7 @@ attr_reader :artist
   end
 
   def artist
-    self.artist = self
+    @song.artist = self
   end
 
 end
