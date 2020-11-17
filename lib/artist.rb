@@ -25,7 +25,12 @@ class Artist
 
   def self.find_or_create_by_name(name)
 # Iterates through the @@all class variable to detect whether that name
+# exists. If not, it creates a new artist.
     self.all.detect {|artist| artist.name == name } || Artist.new(name)
+  end
+
+  def print_songs
+    puts self.songs
 
   end
 
