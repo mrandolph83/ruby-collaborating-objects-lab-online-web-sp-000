@@ -9,8 +9,8 @@ attr_accessor :name, :artist
     @song.artist = self
   end
 
-  def self.all
-    @@all
+  def self.new_by_filename
+    
   end
 
 end
