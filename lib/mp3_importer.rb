@@ -28,6 +28,8 @@ end
 # binding.pry
 
   def import
+# Runs new_by_filename method from the Song class, which returns a
+# new song. Essentially a piggyback method.
     files.each{|f| Song.new_by_filename(f)}
   end
 
