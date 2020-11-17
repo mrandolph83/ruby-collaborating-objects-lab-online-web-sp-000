@@ -9,4 +9,8 @@ attr_accessor :name, :artist
     @song.artist = self
   end
 
+  def self.all
+    @@all
+  end
+
 end
